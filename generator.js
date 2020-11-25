@@ -8,6 +8,7 @@ for (let i = 0; i < 4; i++) {
   for (let j = 0; j < 4; j++) {
     const td = document.createElement("td");
     const text = document.createTextNode("test");
+    td.addEventListener("click
     td.appendChild(text);
     tr.appendChild(td);
   }
